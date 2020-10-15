@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="114dp"
+        android:layout_height="160dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.121"
+        app:cardCornerRadius="126dp">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="114dp"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+
+              />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/pUsername"
+        android:layout_width="218dp"
+        android:layout_height="46dp"
+        android:text="   USERNAME"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.307"
+        app:layout_constraintStart_toEndOf="@+id/cardView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <TextView
+        android:id="@+id/pEmail"
+        android:layout_width="174dp"
+        android:layout_height="35dp"
+        android:text="    email"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.325"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/pUsername"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <TextView
+        android:id="@+id/pContact"
+        android:layout_width="176dp"
+        android:layout_height="38dp"
+        android:text="    contact"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pEmail"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="53dp"
+        android:layout_height="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toEndOf="@+id/cardView2"
+        app:layout_constraintTop_toBottomOf="@+id/pUsername"
+        app:layout_constraintVertical_bias="0.032"
+        app:srcCompat="@drawable/gmail" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="52dp"
+        android:layout_height="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.403"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.02"
+        app:srcCompat="@drawable/contact" />
+
+    <ImageView
+        android:id="@+id/editIcon"
+        android:layout_width="52dp"
+        android:layout_height="56dp"
+        android:onClick="editIcon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pContact"
+        app:layout_constraintVertical_bias="0.062"
+        app:srcCompat="@drawable/editicon" />
+
+    <Button
+        android:id="@+id/changeProfileImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ChangeProfileImage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editIcon" />
+
+    <ImageView
+        android:id="@+id/pImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/changeProfileImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editIcon"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

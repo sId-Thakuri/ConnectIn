@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "928060903855",
+    "firebase_url": "https://authenticatorapp-a2420.firebaseio.com",
+    "project_id": "authenticatorapp-a2420",
+    "storage_bucket": "authenticatorapp-a2420.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928060903855:android:e2ae881c76d919100edf5a",
+        "android_client_info": {
+          "package_name": "com.siddhant.authenticatorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928060903855-qol38codtqm30a3i36cvio2he5bugpq8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.siddhant.authenticatorapp",
+            "certificate_hash": "a7abbbb6b26ff0ae1997df175d01ac5df0ddfaa3"
+          }
+        },
+        {
+          "client_id": "928060903855-9c4c2sg710aoshus2bb497c67ko5v68f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRl5sH2LIY2x5yYuuie6XPzpCAy5BBlPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928060903855-9c4c2sg710aoshus2bb497c67ko5v68f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
